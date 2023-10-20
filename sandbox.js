@@ -98,7 +98,7 @@ arrStyles.forEach(elemStyles => {
 
 function createBlock(styles) {
     const block = document.createElement('div');
-    block.style.position = 'absolute';
+    block.style.position = 'fixed';
     
     for (const key in styles) {
         block.style[key] = styles[key];
