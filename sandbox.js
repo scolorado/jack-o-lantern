@@ -106,3 +106,4 @@ function createBlock(styles) {
     
     document.body.appendChild(block);
 }
+
